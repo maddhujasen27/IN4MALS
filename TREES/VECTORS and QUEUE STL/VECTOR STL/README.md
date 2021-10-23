@@ -87,7 +87,7 @@ So When we print the datas from v[0]-v[5], **WE GET**:<br>
 |v[4]|garbe value|
 |v[5]|garbage value|
 
-> #### :smile: Hope everythings clear upto now! :smile:
+> :smile: Hope everythings clear upto now! :smile:
 
 - **`v.size()` function is used to return the size of the array.*** In the above example, it would return **4** .
 See above. In the above example, when we do `cout<<v[4]` or `cout<<v[5]` , It returns us a garbage value, since nothing is present there. ***A better aletrnative to this is to use `v.at(postion) function`*** <br>
@@ -101,7 +101,7 @@ It would print:- 10 100 30 23
 
 If we try to do **`v.at(5)`** , instead of giving a garbage value, it will return **OUT OF RANGE** exception.<br>
 
-> ***###### Hence we can safely conclude that using `.at()` function is much suitavle than using the [] notation***
+> ***Hence we can safely conclude that using `.at()` function is much suitavle than using the [] notation***
 
 - Function ***`pop_back()`*** removes the last element of the vector. For example, after using `v.pop_back()`, v will become [10,100,30]
 
