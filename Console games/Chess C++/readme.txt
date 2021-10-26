@@ -13,3 +13,5 @@
 |      Date: 25/10/2021      |
 |   Author: Rudrashish Das   |
 +----------------------------+
+
+The game was tested with gcc compiler version 9.3.0 in Windows 10 64 bit and Ubuntu 64 bit.
