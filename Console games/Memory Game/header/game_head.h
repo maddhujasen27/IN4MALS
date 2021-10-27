@@ -83,7 +83,7 @@ namespace ghead{
 
             sutil::disp_grid(fillerArray,0);
 
-            stageCount=1;	//Goto start here
+            stageCount=1;
             
             while(true)
             {
